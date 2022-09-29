@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.main_page {
+  height: 800px;
+  background: url("../img/main_bg.jpg") center center/cover no-repeat;
+  padding: 38px 0px 59px 0px;
+}
+
+.logo {
+  display: block;
+  text-align: center;
+}
+
+.logo .text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 14px;
+}
+
+.content_wordpress {
+  margin-top: 53px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 41px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f9bf3b;
+}
+
+.content_simple {
+  padding: 0;
+  margin-top: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.content_hard {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 41px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f9bf3b;
+  margin-top: 20px;
+}
+
+.content_getfree {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 22.5px;
+  padding: 0px 16px;
+}
+
+.content_getfree span {
+  color: #f9bf3b;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.main_button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 72px;
+  width: 313px;
+  height: 72px;
+  background: linear-gradient(0deg, #2798b9 0%, #3ab6da 100%);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  border: 0px solid;
+  font-family: "RobotoCondensed";
+  font-size: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+}
+
+.content_learnmore {
+  margin-top: 70.5px;
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.go_down {
+  display: block;
+  text-align: center;
+  margin-top: 4.49px;
+  cursor: pointer;
+}
