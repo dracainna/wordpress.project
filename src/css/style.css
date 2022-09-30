@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -12,7 +14,7 @@
 .main_page {
   height: 800px;
   background: url("../img/main_bg.jpg") center center/cover no-repeat;
-  padding: 38px 0px 59px 0px;
+  padding: 38px 0px 61px 0px;
 }
 
 .logo {
@@ -28,23 +30,26 @@
   color: #ffffff;
   text-transform: uppercase;
   text-align: center;
-  margin-top: 14px;
+  margin-top: 9.5px;
 }
 
 .content_wordpress {
-  margin-top: 53px;
+  margin-top: 64px;
+  margin-left: -27px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
   font-size: 41px;
+  line-height: 41px;
   text-align: center;
   text-transform: uppercase;
   color: #f9bf3b;
+  line-height: 24px;
 }
 
 .content_simple {
-  padding: 0;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-left: -31px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
@@ -62,7 +67,8 @@
   text-align: center;
   text-transform: uppercase;
   color: #f9bf3b;
-  margin-top: 20px;
+  margin-top: -2px;
+  margin-left: -18px;
 }
 
 .content_getfree {
@@ -72,8 +78,9 @@
   font-size: 21px;
   text-align: center;
   color: #ffffff;
-  margin-top: 22.5px;
+  margin-top: 15.5px;
   padding: 0px 16px;
+  line-height: 28px;
 }
 
 .content_getfree span {
@@ -85,16 +92,17 @@
 .main_button {
   display: block;
   margin: 0 auto;
-  margin-top: 72px;
+  margin-top: 69px;
   width: 313px;
   height: 72px;
   background: linear-gradient(0deg, #2798b9 0%, #3ab6da 100%);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
   border: 0px solid;
-  font-family: "RobotoCondensed";
+  font-family: "Roboto Condensed";
   font-size: 21px;
   text-align: center;
   text-transform: uppercase;
+  line-height: 24px;
   color: #ffffff;
   text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
   cursor: pointer;
@@ -108,12 +116,12 @@
   font-weight: 100;
   font-size: 15px;
   text-transform: uppercase;
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .go_down {
   display: block;
   text-align: center;
-  margin-top: 4.49px;
+  margin-top: 10.49px;
   cursor: pointer;
 }
