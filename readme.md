@@ -1,2 +1,1 @@
-# udemy-projects
- first steps in webdev
+Project for Udemy.
